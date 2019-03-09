@@ -1,7 +1,7 @@
 {
   "name": "eobot-api-promise",
-  "version": "0.0.1",
-  "description": "Promise-based package for the Eobot API",
+  "version": "0.1.1",
+  "description": "Simplified javascript client for the EobotAPI. Promise-based",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/**/*.js --fix"
@@ -17,7 +17,7 @@
   },
   "keywords": [
     "eobot",
-    "mining"
+    "promise"
   ],
   "license": "GPL-3.0",
   "author": "Bonacina Alberto <bonacina.alberto@gmail.com>",
