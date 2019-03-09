@@ -1,8 +1,9 @@
 const toQueryString = require('to-querystring').default;
-const http = require('./http');
+const httpAx = require('./http');
 
+const apiRequest = async (data, endpoint) => {
+  const http = httpAx(endpoint);
 
-const apiRequest = async (data) => {
   const query = toQueryString({
     ...data,
     ...{ json: true },

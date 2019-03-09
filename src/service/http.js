@@ -1,7 +1,5 @@
 const axios = require('axios');
 
-const http = axios.create({
-  baseURL: 'https://www.eobot.com',
+module.exports = endpoint => axios.create({
+  baseURL: endpoint || 'https://www.eobot.com',
 });
-
-module.exports = http;
