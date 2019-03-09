@@ -1,6 +1,9 @@
 # Changelog
 
 ### 0.1.1 (Mar 9, 2019)
+- Fix README.md example
+
+### 0.1.1 (Mar 9, 2019)
 - Add 'setApiURL' method
 
 ### 0.1.0 (Mar 9, 2019)

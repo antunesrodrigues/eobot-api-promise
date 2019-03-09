@@ -15,7 +15,9 @@ I implement all the APIs listed in the developers page. Every API uses as input 
 ```javascript
 const eobot = require('eobot-api-promise');
 
-eobot.getBalances()
+const userid = 12345;
+
+eobot.getBalances(userid)
 .then(balances => {
   console.info(balances);
 });
