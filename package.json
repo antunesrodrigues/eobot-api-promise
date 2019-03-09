@@ -12,7 +12,7 @@
     "mining"
   ],
   "dependencies": {
-    "request": "~2.71.0"
+    "axios": "^0.18.0"
   },
   "license": "GPL-3.0",
   "maintainers": [
