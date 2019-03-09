@@ -5,10 +5,10 @@ const objectToQuery = require('../obj-to-query');
 const apiRequest = async (data) => {
   const query = objectToQuery({
     ...data,
-    ...{json: true}
+    ...{ json: true },
   });
-  
-  return await http.post(`api.aspx?${query}`)
-  .then(res => res.data);
+
+  return http.post(`api.aspx?${query}`)
+    .then(res => res.data);
 };
-module.exports = apiRequest
+module.exports = apiRequest;

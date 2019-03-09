@@ -1,5 +1,5 @@
 const objectToQuery = (object) => {
-  const arrayDePesquisa = []
+  const arrayDePesquisa = [];
   Object.keys(object).forEach((prop) => {
     const value = String(object[prop]);
 
@@ -8,7 +8,6 @@ const objectToQuery = (object) => {
 
 
   return arrayDePesquisa.join('&');
-}
+};
 
 module.exports = objectToQuery;
-
