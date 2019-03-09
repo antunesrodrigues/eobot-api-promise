@@ -2,7 +2,7 @@
 
 ![Eobot API](https://www.eobot.com/eobotlogo.png "Eobot.com")
 
-[![npm package](https://nodei.co/npm/eobot-api.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eobot-api/)
+[![npm package](https://nodei.co/npm/eobot-api-promise.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eobot-api-promise/)
 
 This node module provides a Node.js implementation for the API of the Cloud mining and Bitcoin mining [Eobot.com](https://www.eobot.com/)
 > Eobot is the easiest, cheapest, and best way to get or mine Bitcoin, Ethereum, Litecoin, Bitcoin Cash, Dogecoin, Ripple, Dash, Golem, Cardano, CureCoin, NEM, Monero, Zcash, Factom, Bytecoin, STEEM, Lisk, EOS, USD, Stellar, Ethereum Classic, and Grin. Whether or not you use our Cloud Mining or your own hardware, you can mine any cryptocurrency, regardless if it is based on a SHA-256 or Scrypt algorithm.
