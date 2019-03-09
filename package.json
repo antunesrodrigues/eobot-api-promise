@@ -1,7 +1,7 @@
 {
-  "name": "eobot-api",
+  "name": "eobot-api-promise",
   "version": "0.0.1",
-  "description": "Node.js Package for the Eobot API",
+  "description": "Promise-based package for the Eobot API",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/**/*.js --fix"
@@ -22,14 +22,15 @@
   "license": "GPL-3.0",
   "author": "Bonacina Alberto <bonacina.alberto@gmail.com>",
   "maintainers": [
+    "antunesrodrigues <jipacoding@gmail.com>",
     "polilluminato <bonacina.alberto@gmail.com>"
   ],
-  "homepage": "https://github.com/polilluminato/eobot-api#readme",
+  "homepage": "https://github.com/antunesrodrigues/eobot-api-promise#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/polilluminato/eobot-api.git"
+    "url": "git+https://github.com/antunesrodrigues/eobot-api-promise.git"
   },
   "bugs": {
-    "url": "https://github.com/polilluminato/eobot-api/issues"
+    "url": "https://github.com/antunesrodrigues/eobot-api-promise/issues"
   }
 }
