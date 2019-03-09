@@ -1,4 +1,4 @@
-# eobot-api-promise - Simplified javascript client for the EobotAPI. Promise-based
+# Simplified javascript client for the EobotAPI. Promise-based
 
 ![Eobot API](https://www.eobot.com/eobotlogo.png "Eobot.com")
 
