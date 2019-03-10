@@ -1,6 +1,6 @@
 {
   "name": "eobot-api-promise",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "Simplified javascript client for the EobotAPI. Promise-based",
   "main": "src/index.js",
   "scripts": {
