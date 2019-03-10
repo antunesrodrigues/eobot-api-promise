@@ -15,6 +15,13 @@ module.exports = {
     });
   },
 
+  getSupportedCoins(currency = 'USD') {
+    return sendRequest({
+      currency,
+      supportedcoins: true,
+    });
+  },
+
   getBalances(userId) {
     return sendRequest({
       total: userId,

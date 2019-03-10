@@ -1,5 +1,8 @@
 # Changelog
 
+### 0.1.3 (Mar 10, 2019)
+- Add 'getSupportedCoins'
+
 ### 0.1.2 (Mar 10, 2019)
 - Add 'getCoinPrice'
 
