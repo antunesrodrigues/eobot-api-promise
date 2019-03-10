@@ -1,5 +1,8 @@
 # Changelog
 
+### 0.1.6 (Mar 10, 2019)
+- Update README examples
+
 ### 0.1.5 (Mar 10, 2019)
 - Add 'getSupportedFiat'
 

@@ -39,11 +39,22 @@ Based on the example above, the response for the get balance is
   "PPD": "0.00000000"
 }
 ```
-
-#### Set Api URL
-Set the endpoint url.
+#### Get Coin Price
+Returns criptocurrency/coin price. Pass in querystring 'coin'.
 ```javascript
-eobot.setApiURL(newApiUrl)
+eobot.getCoinPrice(coin)
+```
+
+#### Get Supported Coins
+Returns criptocurrency/coin price. Pass in querystring 'currency'.
+```javascript
+eobot.getSupportedCoins(currency?) 
+```
+
+#### Get Supported Fiat
+Returns exchange rates.
+```javascript
+eobot.getSupportedFiat() 
 ```
 
 #### Get Balances
@@ -104,6 +115,11 @@ eobot.buyCloudWithCryptocurrency(userid, email, password, currencyFrom, amount, 
 Programmatically get estimate. Pass in querystring from coin type, to coin type, and cryptocurrency amount.
 ```javascript
 eobot.exchangeEstimate(hasExchangeFee, currencyFrom, amount, currencyTo)
+```
+#### Set Api URL
+Set the endpoint url.
+```javascript
+eobot.setApiURL(newApiUrl)
 ```
 
 ### Disclaimer
