@@ -22,6 +22,12 @@ module.exports = {
     });
   },
 
+  getSupportedFiat() {
+    return sendRequest({
+      supportedfiat: true,
+    });
+  },
+
   getBalances(userId) {
     return sendRequest({
       total: userId,

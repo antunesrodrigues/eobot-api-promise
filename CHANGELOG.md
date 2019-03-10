@@ -1,5 +1,8 @@
 # Changelog
 
+### 0.1.4 (Mar 10, 2019)
+- Add 'getSupportedFiat'
+
 ### 0.1.3 (Mar 10, 2019)
 - Add 'getSupportedCoins'
 
