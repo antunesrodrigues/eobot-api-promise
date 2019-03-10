@@ -9,6 +9,12 @@ module.exports = {
     return apiUrl;
   },
 
+  getCoinPrice(coin) {
+    return sendRequest({
+      coin,
+    });
+  },
+
   getBalances(userId) {
     return sendRequest({
       total: userId,

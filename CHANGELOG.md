@@ -1,5 +1,8 @@
 # Changelog
 
+### 0.1.2 (Mar 10, 2019)
+- Add 'getCoinPrice'
+
 ### 0.1.1 (Mar 9, 2019)
 - Fix README.md example
 
